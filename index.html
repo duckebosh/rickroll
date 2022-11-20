@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUIZMAKER</title>
+    <style>
+
+
+*
+{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+ul
+{
+  list-style:none;
+}
+a
+{
+  text-decoration:none;
+}
+/*---Header---*/
+.header
+{
+  height:100vh;
+  width:100vw;
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url('whoismostlikelyto.jpg');
+  background-size:cover; 
+}
+/*---Navbar---*/
+.navbar
+{
+  position:absolute;
+  width:100%;
+  padding:50px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+.navbar .logo
+{
+  font-size:2em;
+  font-weight:bold;
+}
+.navbar .nav-links ul
+{
+  display:flex;
+}
+.navbar .nav-links ul li
+{
+  margin:0 25px;
+}
+.navbar .nav-links ul li.active a
+{
+  color:#ed3c57;
+  font-weight:600;
+}
+.navbar a 
+{
+  color:black;
+}
+.navbar .menu-hamburger
+{
+  display:none;
+  color: black;
+  position:absolute;
+  top:50px;
+  right:50px;
+  font-size:35px;
+  cursor:pointer;
+}
+
+@media screen and (max-width:900px)
+{
+  .navbar
+  {
+    padding:0;
+  }
+  .navbar .logo
+  {
+    display:none;
+  }
+  .navbar .menu-hamburger
+  {
+    display:block;
+  }
+  .nav-links
+  {
+    top:0;
+    left:-100%;
+    position:absolute;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:rgba(0,0,0,0.5);
+    backdrop-filter:blur(8px);
+    width:100%;
+    height:100vh;
+    transition: left 0.5s ease;
+    
+  }
+  .nav-links.mobile-menu
+  {
+  left:0;
+    
+  }
+
+  .nav-links ul
+  {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+  }
+  .navbar .nav-links ul li
+  {
+  margin:25px 0;
+  font-size:1.2em;
+  }
+  .menu-hamburger
+  {
+    display:block;
+  }
+}
+        body {
+            margin: 0;
+            padding: 10px;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        }
+
+        .button {
+            background: #0d0d0d;
+            color: white;
+            border: none;
+            outline: none;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar">
+        <a href="#" class="logo">Quizmadeetle</a>
+        <div class="nav-links">
+          <ul class="nav-menu">
+            <li class="active"><a href="">Home</a></li>
+            <li><a href="">About Us</a></li>
+            <li><a href="">Create a quiz +</a></li>
+            <li><a href="">Careers</a></li>
+            <li><a href="">Sign up</a></li>
+          </ul>
+        </div>
+          <i class='bx bx-grid-alt menu-hamburger'></i>
+      
+      </nav>
+      <header class="header"></header>
+
+    <h1>Quiz Title</h1>
+    <p>Quiz by username123456</p>
+    <br>
+
+    <h2>1. Question name 1</h2>
+    <input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="html">Option 1</label><br>
+    <input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="html">Option 2</label><br>
+    <input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="html">Option 3</label><br>
+    <input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="html">Option 4</label><br>
+    <input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="html">Option 5</label><br>
+    <input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="html">Option 6</label><br>
+    <input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="html">Option 7</label><br>
+
+    <h2>2. Question name 2</h2>
+    <input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="html">Option 1</label><br>
+    <input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="html">Option 2</label><br>
+    <input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="html">Option 3</label><br>
+    <input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="html">Option 4</label><br>
+    <input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="html">Option 5</label><br>
+    <input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="html">Option 6</label><br>
+    <input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="html">Option 7</label><br>
+
+    <h2>3. Question name 3</h2>
+    <input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="html">Option 1</label><br>
+    <input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="html">Option 2</label><br>
+    <input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="html">Option 3</label><br>
+    <input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="html">Option 4</label><br>
+    <input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="html">Option 5</label><br>
+    <input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="html">Option 6</label><br>
+    <input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="html">Option 7</label><br>
+
+    <h2>4. Question name 4</h2>
+    <input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="html">Option 1</label><br>
+    <input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="html">Option 2</label><br>
+    <input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="html">Option 3</label><br>
+    <input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="html">Option 4</label><br>
+    <input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="html">Option 5</label><br>
+    <input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="html">Option 6</label><br>
+    <input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="html">Option 7</label><br>
+
+    <br>
+
+    <button class="button"><a style="color: white; text-decoration: none;" href="https://youtu.be/xvFZjo5PgG0">Submit!</a></button>
+</body>
+</html>
