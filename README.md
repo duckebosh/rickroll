@@ -7,6 +7,31 @@ I've put together this basic quiz in html (and tried to make it as realistic as 
 'submit' button it will redirect to [This rickroll](https://www.youtube.com/watch?v=xvFZjo5PgG0&ab_channel=Duran). Feel free to share around but remember you need to host it.
 You can also fork this and host through Github pages.
 
+# Instructions
+
+## 1. Download files. 
+
+![Download Gif](https://i.imgur.com/mWW0F7I.gif)
+
+This is very easy - simply follow the gif above and download the files. Be sure to extract them before anything. 
+
+## 2. Open the .html file in code editor.
+
+You can open the .html file in any code editor VS code is the most ideal - but you can even use notepad.
+
+## 3. Edit the different parts
+
+You can follow [this](#editing-the-questions) to edit the questions properly.
+
+## 4. Host the files.
+
+Hosting will not be fully described here but you can use [netlify](https://github.com/netlify) for example, to host the site files. Any hosting works. 
+
+## 5. (Optional) Help improve duckebosh rickroll. 
+
+Please do report any bugs but first make sure to read [reported bugs](#reported-bugs) prior to posting them. You 
+can also suggest fixes or features all in the [issues tab](https://github.com/duckebosh/rickroll/issues).
+
 
 
 # Editing the questions
