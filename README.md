@@ -31,6 +31,8 @@ You can also fork this and host through Github pages.
     <label for="html">Option 7</label><br>   - Replace 'Option 7' with whatever you want the option to be
 ```
 
+This will look like [this](https://raw.githubusercontent.com/duckebosh/rickroll/main/questionexample.md)
+
 Repeat for all the bits like this.........
 
 
