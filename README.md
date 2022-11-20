@@ -35,6 +35,12 @@ Repeat for all the bits like this.........
 
 
 
-# FORK
+# SUBSCRIBE
 
 [![](https://s18955.pcdn.co/wp-content/uploads/2018/02/github.png)](https://github.com/duckebosh/rickroll/subscription)
+
+
+# Reported Bugs
+
+* Issue you can only select one radio button.
+    - Will be fixed asap
