@@ -40,19 +40,19 @@ can also suggest fixes or features all in the [issues tab](https://github.com/du
 
 ```
     <h2>1. Question name 1</h2> - Replace 'Question name 1' with whatever you want the question to be asking. 
-    <input type="radio" id="html" name="fav_language" value="HTML"> - Ignore this line.
+    <input type="checkbox" id="html" name="fav_language" value="HTML"> - Ignore this line.
     <label for="html">Option 1</label><br> - Replace 'Option 1' with whatever you want the option to be
-    <input type="radio" id="html" name="fav_language" value="HTML"> - Ignore this line.
+    <input type="checkbox" id="html" name="fav_language" value="HTML"> - Ignore this line.
     <label for="html">Option 2</label><br>  - Replace 'Option 2' with whatever you want the option to be
-    <input type="radio" id="html" name="fav_language" value="HTML">  - Ignore this line.
+    <input type="checkbox" id="html" name="fav_language" value="HTML">  - Ignore this line.
     <label for="html">Option 3</label><br>   - Replace 'Option 3' with whatever you want the option to be
-    <input type="radio" id="html" name="fav_language" value="HTML">  - Ignore this line.
+    <input type="checkbox" id="html" name="fav_language" value="HTML">  - Ignore this line.
     <label for="html">Option 4</label><br>   - Replace 'Option 4' with whatever you want the option to be
-    <input type="radio" id="html" name="fav_language" value="HTML">  - Ignore this line.
+    <input type="checkbox" id="html" name="fav_language" value="HTML">  - Ignore this line.
     <label for="html">Option 5</label><br>   - Replace 'Option 5' with whatever you want the option to be
-    <input type="radio" id="html" name="fav_language" value="HTML">  - Ignore this line.
+    <input type="checkbox" id="html" name="fav_language" value="HTML">  - Ignore this line.
     <label for="html">Option 6</label><br>   - Replace 'Option 6' with whatever you want the option to be
-    <input type="radio" id="html" name="fav_language" value="HTML">  - Ignore this line.
+    <input type="checkbox" id="html" name="fav_language" value="HTML">  - Ignore this line.
     <label for="html">Option 7</label><br>   - Replace 'Option 7' with whatever you want the option to be
 ```
 
@@ -70,4 +70,4 @@ Repeat for all the bits like this.........
 # Reported Bugs
 
 * Issue you can only select one radio button.
-    - Will be fixed asap
+    - Fixed
